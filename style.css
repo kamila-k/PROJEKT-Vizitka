@@ -16,8 +16,9 @@ body{
 	padding: 30px;
     margin: 160px; /* margin se smeremm ven od ramecku (od border) */
 
-    box-shadow: 5px;
+    box-shadow: 10px; /* tohle mi nefunguje - revisit!!!! */
     border-radius: 10px;
+    position: relative;
 }
 
 h1{
@@ -26,7 +27,8 @@ h1{
     margin-bottom: 30px;
     margin-top: 30px;
     font-family: Nunito, sans-serif;
-    font-weight:700;
+    font-weight: 700;
+    position: relative; 
    }
 
 p {
@@ -39,44 +41,38 @@ p {
     font-weight:400;
 }
 
-.profilovka{
-    position: relative;
-   top: -50%;
-   right: -50%;
-}
 
-img {
-    border-radius: 50%; 
-    border: 3px;
+
+.profilovka {
+    position: relative;
+   top: -95px;
+   left: 440px;
+   /* transform: translate(-50%, -50%); */ 
+   /* display: inline-block; */ 
+    
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    width: 150px;
+    height: 150px;
+      
+
     /* stred v prahem hornim rohu vizitky --> dat do praveho horniho rohu a posunout o 50%  */
     
 }
 
 
-/* tlacitka - podbarvit cely box; 
-box zaoblit rohy,
-border=0px 
-margin ano - center horizontally
-padding = 0 
-text-align: center
-caps  --> text-transform: capitalize;
-padding top 2px;
-display: inline-block;
-
-*/
 .twitter{
     border: 0px;
-    border-radius: 2px;
+    border-radius: 5px;
     text-transform: uppercase;
     text-align: center; 
     display: block;
    
     margin: 5px 0px;
-    padding: 5px 0px;
+    padding: 10px;
 	background-color: #1da1f2;
     width: 100%;
-    
- 
+     
     /* tlačítko Twitter:					 
 tlačítko Twitter aktivní:	 #0b7bc1*/
 }
@@ -92,13 +88,13 @@ tlačítko Twitter aktivní:	 #0b7bc1*/
 
 .facebook {
     border: 0px;
-    border-radius: 2px;
+    border-radius: 5px;
     text-transform: uppercase;
     text-align: center; 
     display: block;
 
     margin: 5px 0px;
-    padding: 5px 0px;
+    padding: 10px;
 	background-color: #3b5998;
     width: 100%;
   
