@@ -44,9 +44,9 @@ p {
 
 
 .profilovka {
-    position: relative;
-   top: -95px;
-   left: 440px;
+    position: absolute;
+   top: -60px;
+   left: 460px;
    /* transform: translate(-50%, -50%); */ 
    /* display: inline-block; */ 
     
